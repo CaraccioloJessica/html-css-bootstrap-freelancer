@@ -1,0 +1,29 @@
+header .row:first-child{
+  background-color: #2C3E50;
+  min-height: 100px;
+}
+
+header .row:last-child{
+  background-color: #1ABC9C;
+  min-height: 400px;
+  margin-top: 100px;
+}
+
+/* DEBUG */
+[class*="col-"] {
+  border: 1px solid black;
+  min-height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.jumbo .offset-4.col-4:first-of-type{
+  height: 160px;
+  border-radius: 50%;
+}
+
+/* MAIN */
+main .offset-1.col-10{
+  height: 400px;
+}
+
