@@ -7,6 +7,7 @@ header .row:last-child{
   background-color: #1ABC9C;
   min-height: 400px;
   margin-top: 100px;
+  padding: 20px;
 }
 
 /* DEBUG */
@@ -15,6 +16,10 @@ header .row:last-child{
   height: 50px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+main .row{
+  padding: 30px;
 }
 
 .jumbo .col-5:first-of-type{
