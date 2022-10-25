@@ -10,8 +10,23 @@ header .row:last-child{
 }
 
 /************* ABOUT *************/
+.jumbo .col-5:first-of-type{
+  height: 40%;
+}
+
+.jumbo img{
+  object-fit: contain;
+}
+
 .green{
   background-color: #1ABC9C;
+}
+
+/*********** PORTFOLIO ***********/
+.portfolio{
+  max-width: 100%;
+  height: auto;
+  border-radius: 1rem;
 }
 
 /************* FOOTER *************/
@@ -27,23 +42,6 @@ header .row:last-child{
 [class*="col-"] {
   border: 1px solid black;
   min-height: 50px;
-}
-
-.jumbo .col-5:first-of-type{
-  height: 40%;
-}
-
-.jumbo img{
-  object-fit: contain;
-}
-
-/* MAIN */
-main .col-10,main .col-md-5{
-  height: 400px;
-}
-
-main .col-lg-3{
-  height: 300px;
 }
 
 .green .col-8{
