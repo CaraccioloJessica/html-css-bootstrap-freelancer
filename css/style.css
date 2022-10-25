@@ -22,7 +22,7 @@ header .row:last-child{
 }
 
 /* MAIN */
-main .offset-1.col-10{
+main .col-10{
   height: 400px;
 }
 
@@ -30,11 +30,11 @@ main .offset-1.col-10{
   background-color: #1ABC9C;
 }
 
-.green .offset-3.col-6{
+.green .col-6{
   height: 200px;
 }
 
-.contact .offset-3.col-6{
+.contact .col-6{
   height: 200px;
 }
 
