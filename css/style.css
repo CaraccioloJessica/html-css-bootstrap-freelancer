@@ -26,11 +26,15 @@ header .row:last-child{
 /************ DEBUG ************/
 [class*="col-"] {
   border: 1px solid black;
-  height: 50px;
+  min-height: 50px;
 }
 
 .jumbo .col-5:first-of-type{
-  height: 160px;
+  height: 40%;
+}
+
+.jumbo img{
+  object-fit: contain;
 }
 
 /* MAIN */
