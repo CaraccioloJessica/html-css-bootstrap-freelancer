@@ -99,15 +99,6 @@ h2{
   background-color: #1ABC9C;
 }
 
-/************* FOOTER *************/
-.top{
-  background-color: #3A546D;
-}
-
-.bottom{
-  background-color: #2C3E50;
-}
-
 main p{
   font-size: 1.15rem;
 }
@@ -118,8 +109,17 @@ main p{
   padding: 5px 10px;
 }
 
-/************ DEBUG ************/
+/************* CONTACT *************/
+.btn.aqua{
+  border: none;
+  background-color: #1ABC9C;
+}
 
-.contact .col-8{
-  height: 200px;
+/************* FOOTER *************/
+.top{
+  background-color: #3A546D;
+}
+
+.bottom{
+  background-color: #2C3E50;
 }
