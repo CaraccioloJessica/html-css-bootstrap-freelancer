@@ -43,10 +43,6 @@ header a{
   object-fit: contain;
 }
 
-.green{
-  background-color: #1ABC9C;
-}
-
 h1{
   font-size: 3rem;
 }
@@ -94,6 +90,15 @@ h2{
   color: #333;
 }
 
+.whitetext{
+  color: #fff;
+}
+
+/************* ABOUT *************/
+.green{
+  background-color: #1ABC9C;
+}
+
 /************* FOOTER *************/
 .top{
   background-color: #3A546D;
@@ -103,15 +108,17 @@ h2{
   background-color: #2C3E50;
 }
 
-/************ DEBUG ************/
-/* [class*="col-"] {
-  border: 1px solid black;
-  min-height: 50px;
-} */
-
-.green .col-8{
-  height: 200px;
+main p{
+  font-size: 1.15rem;
 }
+
+.btn {
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+/************ DEBUG ************/
 
 .contact .col-8{
   height: 200px;
