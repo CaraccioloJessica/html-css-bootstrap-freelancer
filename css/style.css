@@ -151,3 +151,8 @@ footer p{
 .fa-linkedin-in{
   padding: 10px 11px;
 }
+
+footer a{
+  text-decoration: none;
+  color: #1ABC9C;
+}
