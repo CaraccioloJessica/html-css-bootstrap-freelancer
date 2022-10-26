@@ -39,8 +39,9 @@ h1{
   font-size: 3rem;
 }
 
-header h2{
+header p{
   font-size: 1.2rem;
+  font-weight: 600;
 } 
 
 header i{
