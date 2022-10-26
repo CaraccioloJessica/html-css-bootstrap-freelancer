@@ -10,7 +10,7 @@ header .row:last-child{
 }
 
 /************* ABOUT *************/
-.jumbo .col-5:first-of-type{
+.jumbo .col-4:first-of-type{
   height: 40%;
 }
 
