@@ -124,3 +124,11 @@ main p{
   font-size: 0.7rem;
   background-color: #2C3E50;
 }
+
+footer h3{
+  font-size: 1.4rem;
+}
+
+footer p{
+  font-size: 1.11rem;
+}
