@@ -132,3 +132,22 @@ footer h3{
 footer p{
   font-size: 1.11rem;
 }
+
+.fa-brands{
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 4px;
+}
+
+.fa-facebook-f{
+  padding: 10px 13px;
+}
+
+.fa-google-plus-g{
+  padding: 10px 8px;
+}
+
+.fa-linkedin-in{
+  padding: 10px 11px;
+}
