@@ -1,12 +1,37 @@
+/************* HEADER *************/
 header .row:first-child{
   background-color: #2C3E50;
-  min-height: 100px;
+  min-height: 80px;
 }
 
 header .row:last-child{
   background-color: #1ABC9C;
   min-height: 400px;
-  margin-top: 100px;
+  margin-top: 80px;
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+header ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+header a{
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
 }
 
 /************* ABOUT *************/
@@ -39,10 +64,10 @@ header .row:last-child{
 }
 
 /************ DEBUG ************/
-[class*="col-"] {
+/* [class*="col-"] {
   border: 1px solid black;
   min-height: 50px;
-}
+} */
 
 .green .col-8{
   height: 200px;
