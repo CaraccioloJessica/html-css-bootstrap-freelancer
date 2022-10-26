@@ -34,6 +34,14 @@ header a{
   text-decoration: none;
 }
 
+.fa-bars{
+  font-size: 2rem;
+  color: #696F75;
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
 /************ JUMBO ************/
 .jumbo .col-4:first-of-type{
   height: 40%;
