@@ -35,31 +35,6 @@ header a{
 }
 
 /************ JUMBO ************/
-h1{
-  font-size: 3rem;
-}
-
-header p{
-  font-size: 1.2rem;
-  font-weight: 600;
-} 
-
-header i{
-  font-size: 1.7rem;
-  margin: 0 20px;
-}
-
-.line{
-  display: inline-block;
-  width: 130px;
-  height: 3px;
-  background-color: #fff;
-  border-radius: 5px;
-  position: relative;
-  bottom: 0.4rem;
-}
-
-/************* ABOUT *************/
 .jumbo .col-4:first-of-type{
   height: 40%;
 }
@@ -72,11 +47,51 @@ header i{
   background-color: #1ABC9C;
 }
 
+h1{
+  font-size: 3rem;
+}
+
+header p{
+  font-size: 1.2rem;
+  font-weight: 600;
+} 
+
+.fa-star{
+  font-size: 1.7rem;
+  margin: 0 20px;
+}
+
+.line{
+  display: inline-block;
+  width: 130px;
+  height: 3px;
+  border-radius: 5px;
+  position: relative;
+  bottom: 0.4rem;
+}
+ 
 /*********** PORTFOLIO ***********/
 .portfolio{
   max-width: 100%;
   height: auto;
   border-radius: 1rem;
+}
+
+.white{
+  background-color: #fff;
+}
+
+.blue{
+  background-color: #2C3E50;
+}
+
+.bluestar{
+  color: #2C3E50;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #333;
 }
 
 /************* FOOTER *************/
