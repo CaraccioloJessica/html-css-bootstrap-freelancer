@@ -123,6 +123,11 @@ main p{
   background-color: #1ABC9C;
 }
 
+/************** FORM **************/
+.form-control::placeholder{
+  color: black;
+}
+
 /************* FOOTER *************/
 .top{
   background-color: #3A546D;
